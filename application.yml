@@ -1,2 +1,5 @@
 app:
   name: config-server
+  eureka:
+    default:
+      zone: http://localhost:8761/eureka/
