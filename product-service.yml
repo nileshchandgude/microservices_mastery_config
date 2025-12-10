@@ -1,8 +1,8 @@
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/product_service?createDatabaseIfNotExist=true
-    username: {cipher}08a686e02f151af2080bac72084f456468f854ae22ca21d17cb12aa4323baaaa
-    password: {cipher}d57fd0ef62ae3be48a1b4fea4c192e6a58642ea720f459060d70a0a93b9786f2
+    username: '{cipher}08a686e02f151af2080bac72084f456468f854ae22ca21d17cb12aa4323baaaa'
+    password: '{cipher}d57fd0ef62ae3be48a1b4fea4c192e6a58642ea720f459060d70a0a93b9786f2'
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate.ddl-auto: update
