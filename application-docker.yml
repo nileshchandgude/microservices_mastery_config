@@ -1,0 +1,7 @@
+app:
+  name: config-server
+  eureka:
+    default:
+      zone: http://discovery-server:8761/eureka/
+  zipkin:
+    endpoint: http://zipkin:9411/api/v2/spans
