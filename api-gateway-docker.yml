@@ -4,10 +4,4 @@ jwt:
 cors:
   allowed:
     origins: http://localhost:3000,http://localhost:4200
-
-resilience4j:
-  timelimiter:
-    instances:
-      authServiceRouteCB:
-        timeoutDuration: 20s
     
