@@ -8,3 +8,8 @@ app:
   kafka:
     bootstrap:
       servers: localhost:9092
+    max:
+      poll:
+        interval:
+          ms: 60000
+        records: 10    
